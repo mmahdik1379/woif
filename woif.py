@@ -1,14 +1,15 @@
 #!/usr/bin/python3
 import os
-os.system("pip install pyfiglet termcolor colorama")
-from colorama import init
-from termcolor import cprint 
-from pyfiglet import figlet_format
+#os.system("apt-get install figlet")
+os.system("gnome-terminal -x sh -c 'apt-get install figlet;'")
+#os.system("pip install pyfiglet termcolor colorama")
+#from colorama import init
+#from termcolor import cprint 
+#from pyfiglet import figlet_format
+#cprint(figlet_format('woif!', font='starwars'),'yellow', 'on_red', attrs=['bold'])
 
-# header
-
-cprint(figlet_format('woif!', font='starwars'),
-       'yellow', 'on_red', attrs=['bold'])
+#header
+os.system("figlet -f big 'woif!'")
 print ("contact us : lordmahdi@gmail.com , @lordmmahdi    ,    MADE IN IRAN")
 
 
